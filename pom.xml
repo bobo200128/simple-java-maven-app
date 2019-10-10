@@ -32,11 +32,7 @@
           </archive>
         </configuration>
       </plugin>
-    </plugins>
-  </build>
       <!-- docker的maven插件，官网：https://github.com/spotify/docker-maven-plugin -->
-  <build>
-    <plugins>
       <plugin>
         <groupId>com.spotify</groupId>
         <artifactId>docker-maven-plugin</artifactId>
